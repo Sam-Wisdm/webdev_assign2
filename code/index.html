@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Assignment 2</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- <script src="app.js"></script> -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-inside">
+                <div class="logo-class">
+                    <span class="logo"><a href="#">Logo</a></span>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="menu-hidden">
+                    <img class="menu-hidden" src="../assets/images/icons/menu.png" alt="menu">
+                    <div class="menu-mobile">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">SHOP</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="banner-side">
+                <div class="b-s-1">
+                    <!-- <img src="../assets/images/posts/blue-sea-375x250.jpg" alt=""> -->
+                </div>
+                <div class="b-s-2">
+                    <!-- <img src="../assets/images/posts/sea-375x250.jpg" alt=""> -->
+                </div>
+            </div>
+            <div class="slider" id="slider">
+                <!-- <img class="slide" src="../assets/images/slider/aeroplane.jpg" alt="">
+                <img class="slide" src="../assets/images/slider/beautiful-building.jpg" alt="">
+                <img class="slide" src="../assets/images/slider/candle.jpg" alt="">
+                <img class="slide" src="../assets/images/slider/clouds.jpg" alt="">
+                <img class="slide" src="../assets/images/slider/girl.jpg" alt="">
+                <img class="slide" src="../assets/images/slider/parachute.jpg" alt="">
+                <img class="slide" src="../assets/images/slider/peace.jpg" alt=""> -->
+
+                <div class="read-more">
+                    <!-- <div class="read-more-op">
+
+                    </div> -->
+                    <div class="read-more-content">
+                        <p class="head"><b>LIFE IS SO BEAUTIFUL WITH NATURE</b></p>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quis deserunt vero consequatur,
+                            quidem quo sapiente possimus quibusdam quaerat aliquid illo veniam..</P>
+                        <div class="read-btn" onclick="">
+                            <p style="margin-right: 5px; cursor: pointer;">READ MORE</p>
+                            <!-- <img src="/public/assets/images/right-arrow-svgrepo-com.svg" width="25px" height="25px"> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+                                <text x="12" y="16" text-anchor="middle" font-size="30" font-weight="bold">&#8594;</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="slide-arr">
+                    <button onclick="prev()" class="slide-arr-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <text x="12" y="16" text-anchor="middle" font-size="30" font-weight="bold">&#8592;</text>
+                        </svg>
+                          
+                    </button>  
+                    <button onclick="next()" class="slide-arr-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <text x="12" y="16" text-anchor="middle" font-size="30" font-weight="bold">&#8594;</text>
+                        </svg>
+                          
+                    </button> 
+                </div>
+            </div>
+            <div class="banner-side">
+                <div class="b-s-1">
+                    <!-- <img src="../assets/images/posts/blue-sea-375x250.jpg" alt=""> -->
+                </div>
+                <div class="b-s-2">
+                    <!-- <img src="../assets/images/posts/sea-375x250.jpg" alt=""> -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="search-bar">
+            <input id="search-box" type="search" placeholder="Enter text to search..." onsearch="search()">
+        </div>
+        <div class="cards" id="cards">
+
+        </div>
+        <div class="page" id="pagination">
+            
+        </div>
+    </div>
+
+    <div class="navFooter">
+        <div class="nav-inside footer-inside">
+
+            <div class="copyright">
+                Copyright@2021 Wisdmlabs All rights reserved .
+            </div>
+            <div class="buttom-menu">
+                <div>
+                    <ul class="menu">
+                        <li><a class="menu-link" href="#home">Home</a></li>
+                        <li><a class="menu-link" href="#home">SHOP</a></li>
+                        <li><a class="menu-link" href="#home">BLOG</a></li>
+                        <li><a class="menu-link" href="#home">CONTACT US</a></li>
+                    </ul>
+                </div>
+
+                <div class="up-icon">
+                    <img src="/assets/images/icons/up-arrow.png" width="30px" height="30px">
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

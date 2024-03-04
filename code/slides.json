@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Sky is not the limit",
+      "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
+      "img": "/assets/images/slider/clouds.jpg"
+    },
+    {
+      "title": "Explore. Dream. Discover.",
+      "desc": "Vestibulum aliquam purus vel consectetur venenatis. Vivamus interdum eros at odio posuere faucibus. Nulla tempor nulla erat, ut porta turpis consequat eu. Pellentesque vitae mi at mi porttitor consequat vitae.",
+      "img": "/assets/images/slider/aeroplane.jpg"
+    },
+    {
+      "title": "Architecture is a Visual Art",
+      "desc": "Nullam viverra hendrerit hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse et tincidunt massa. Ut non mi malesuada.",
+      "img": "/assets/images/slider/beautiful-building.jpg"
+    },
+    {
+      "title": "Light",
+      "desc": "Happiness can be found in the darkest of times if one only remembers to turn on the light",
+      "img": "/assets/images/slider/candle.jpg"
+    },
+    {
+      "title": "Despacito",
+      "desc": "¡Oh! Tú, tú eres el imán y yo soy el metal Me voy acercando y voy armando el plan Sólo con pensarlo se acelera el pulso. Ya, ya me está gustando más de lo normal Todos mis sentidos van pidiendo más Esto hay que tomarlo sin ningún apuro",
+      "img": "/assets/images/slider/girl.jpg"
+    },
+    {
+      "title": "Do Something Crazy",
+      "desc": "Donec blandit neque nulla, eu molestie leo luctus nec. Nam eleifend semper nibh, quis congue urna porta vitae. Sed purus tellus, iaculis eu ornare id.",
+      "img": "/assets/images/slider/parachute.jpg"
+    },
+    {
+      "title": "Shanti..Shhh",
+      "desc": "Nam pharetra suscipit ex vel aliquet. Pellentesque sodales fermentum lectus a mattis. Integer volutpat turpis tortor, sed fringilla ipsum tincidunt sit amet. Duis tempus auctor convallis. Morbi.",
+      "img": "/assets/images/slider/peace.jpg"
+    }
+]
