@@ -34,7 +34,10 @@ window.onload = () => {
 // to change slides automatically
 function set_slide() {
     var img = document.getElementById('slider');
-    img.style.backgroundImage = "url(" + slideArr[slide_idx++ % slideArr.length].img + ")";
+    img.style.backgroundImage = "url(" + slideArr[slide_idx % slideArr.length].img + ")";
+    document.getElementById('head').innerHTML = slideArr[slide_idx % slideArr.length].title.toUpperCase();
+    document.getElementById('slide-p').innerHTML = slideArr[slide_idx % slideArr.length].desc;
+    slide_idx++;
 }
 
 // slide back 

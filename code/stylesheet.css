@@ -103,6 +103,11 @@ body{
     border: none;
 }
 
+#head{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
 /* .read-more-op{
     background-color: black;
     opacity: 0.5;
@@ -110,6 +115,7 @@ body{
 } */
 
 .read-more-content{
+    font-size: 16px;
     padding: 15px;
     background-color: black;
     opacity: 0.5;
@@ -125,10 +131,12 @@ body{
 
 .read-btn{
     display: flex;
+    font-weight: bolder;
 }
 
 .read-btn svg{
     margin: 13px 0 0 0;
+    cursor: pointer;
 }
 
 .container{
